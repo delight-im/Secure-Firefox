@@ -3,7 +3,6 @@
 user_pref("network.cookie.cookieBehavior", 1);
 user_pref("network.http.referer.XOriginPolicy", 1);
 user_pref("media.peerconnection.ice.default_address_only", true);
-user_pref("general.buildID.override", "20100101");
 user_pref("security.mixed_content.block_active_content", true);
 user_pref("security.mixed_content.block_display_content", true);
 user_pref("beacon.enabled", false);
