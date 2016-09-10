@@ -27,7 +27,6 @@ user_pref("browser.formfill.enable", false);
 user_pref("browser.newtabpage.enabled", false);
 user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
-user_pref("browser.download.useDownloadDir", false);
 user_pref("devtools.webide.enabled", false);
 user_pref("devtools.webide.autoinstallADBHelper", false);
 user_pref("devtools.webide.autoinstallFxdtAdapters", false);
