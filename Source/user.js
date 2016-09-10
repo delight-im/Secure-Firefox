@@ -19,7 +19,6 @@ user_pref("device.sensors.enabled", false);
 user_pref("camera.control.face_detection.enabled", false);
 user_pref("media.getusermedia.screensharing.enabled", false);
 user_pref("browser.send_pings", false);
-user_pref("dom.battery.enabled", false);
 user_pref("browser.search.suggest.enabled", false);
 user_pref("browser.urlbar.suggest.searches", false);
 user_pref("network.prefetch-next", false);
