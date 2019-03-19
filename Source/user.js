@@ -4,8 +4,8 @@
 user_pref("network.cookie.cookieBehavior", 1);
 // Prevent the "Referer" header from being sent when transitioning between different domains. Actually, disabling the "Referer" completely would be best for privacy. But many sites use that header field for anti-spam checks, bot detection, hotlinking detection, etc. So blocking the header only when transitioning to a *new* domain is a pretty good trade-off ensuring that sites don't break.
 user_pref("network.http.referer.XOriginPolicy", 1);
-// Prevent private or internal IP addresses from being leaked through WebRTC. The address leak is prevented by using only the default interface for ICE candidate generation.
-user_pref("media.peerconnection.ice.default_address_only", true);
+// // Prevent private or internal IP addresses from being leaked through WebRTC. The address leak is prevented by using only the default interface for ICE candidate generation.
+// user_pref("media.peerconnection.ice.default_address_only", true);
 // Block active content (e.g. JavaScript, CSS, XHR requests and iframes) served over insecure HTTP on (otherwise) HTTPS sites. If this type of content wasn't blocked, the HTTP portion could be read or modified by attackers, and the site would be only partially encrypted.
 user_pref("security.mixed_content.block_active_content", true);
 // Block passive content (e.g. images, video and audio) served over insecure HTTP on (otherwise) HTTPS sites. If this type of content wasn't blocked, the HTTP portion could be read or modified by attackers, and the site would be only partially encrypted.
