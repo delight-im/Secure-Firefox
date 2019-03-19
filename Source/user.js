@@ -34,8 +34,8 @@ user_pref("dom.enable_performance", false);
 user_pref("device.sensors.enabled", false);
 // Disable face detection for video captured via the device's camera for privacy reasons.
 user_pref("camera.control.face_detection.enabled", false);
-// Prevent screen sharing via WebRTC which can be *very* dangerous, especially to people not understanding how it works exactly.
-user_pref("media.getusermedia.screensharing.enabled", false);
+// // Prevent screen sharing via WebRTC which can be dangerous, especially to people not understanding how it works exactly.
+// user_pref("media.getusermedia.screensharing.enabled", false);
 // Disable hyperlink auditing which otherwise allows sites to notify a set of pre-defined target endpoints about each click on a prepared link. This is well-suited for tracking and analytics and not suited for much else, so disabling it improves privacy.
 user_pref("browser.send_pings", false);
 // Do not retrieve and display suggestions of similar search queries while typing search terms into the *search bar*. Enabling these suggestions causes all text typed into the search bar to be transmitted to remote servers. When there is a need or strong preference for these suggestions to be shown, this option must be toggled.
