@@ -48,8 +48,6 @@ user_pref("network.prefetch-next", false);
 user_pref("network.http.speculative-parallel-limit", 0);
 // Do not save text entered into forms for later suggestions. This is to protect your data, also against other people using the same device, whose data will obviously be protected with regard to this aspect as well.
 user_pref("browser.formfill.enable", false);
-// Do not show previously (and frequently) visited sites and perhaps even suggested sites on the empty page when opening a new tab. When there is a preference for that history and the recommendations to be shown, this option must be toggled.
-user_pref("browser.newtabpage.enabled", false);
 // Disable any regular data reporting to Mozilla. This reporting is not required and thus, even though it's only a small improvement and although you probably trust Mozilla, strengthens your privacy a little bit. If you want to support Firefox with usage and health data instead, this option must be toggled. (Part 1)
 user_pref("datareporting.healthreport.uploadEnabled", false);
 // Disable any regular data reporting to Mozilla. This reporting is not required and thus, even though it's only a small improvement and although you probably trust Mozilla, strengthens your privacy a little bit. If you want to support Firefox with usage and health data instead, this option must be toggled. (Part 2)
