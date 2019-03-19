@@ -8,8 +8,8 @@ user_pref("network.http.referer.XOriginPolicy", 1);
 // user_pref("media.peerconnection.ice.default_address_only", true);
 // Block active content (e.g. JavaScript, CSS, XHR requests and iframes) served over insecure HTTP on (otherwise) HTTPS sites. If this type of content wasn't blocked, the HTTP portion could be read or modified by attackers, and the site would be only partially encrypted.
 user_pref("security.mixed_content.block_active_content", true);
-// Block passive content (e.g. images, video and audio) served over insecure HTTP on (otherwise) HTTPS sites. If this type of content wasn't blocked, the HTTP portion could be read or modified by attackers, and the site would be only partially encrypted.
-user_pref("security.mixed_content.block_display_content", true);
+// // Block passive content (e.g. images, video and audio) served over insecure HTTP on (otherwise) HTTPS sites. If this type of content wasn't blocked, the HTTP portion could be read or modified by attackers, and the site would be only partially encrypted.
+// user_pref("security.mixed_content.block_display_content", true);
 // Prevent the asynchronous and non-blocking transfer of small HTTP data in the background via beacons. These are rarely used for anything else than analytics and tracking and blocking them thus tends to improve your privacy.
 user_pref("beacon.enabled", false);
 // Force automatic download and installation of software updates for the browser because this is absolutely critical for security.
